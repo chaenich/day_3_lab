@@ -15,8 +15,8 @@ def sum_array(numbers)
   return total
 end
 
-def find_item(array, str)
-  if array.include? str
+def find_item(array, item)
+  if array.include? item
     return true
   else
     return false
